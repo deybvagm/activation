@@ -16,7 +16,7 @@ activations
 
 
 
-activation function for machine learning
+activation function for machine learning. This package only computes the sigmoid activation function on an scalar or a numpy array
 
 
 * Free software: MIT license

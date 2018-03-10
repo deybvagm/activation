@@ -13,9 +13,13 @@ with open('HISTORY.rst') as history_file:
 
 requirements = ['Click>=6.0', ]
 
-setup_requirements = [ ]
+setup_requirements = [
+    'pytest-runner',
+]
 
-test_requirements = [ ]
+test_requirements = [
+    'pytest',
+]
 
 setup(
     author="Deyber Arley Valencia Gomez",
